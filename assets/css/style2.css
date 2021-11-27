@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-image: url(../img/bg-hero.png);
+  height: 400px;
+  text-align: right;
+  color: white;
+  margin-bottom: 100px;
+  text-shadow: 0px 3px 6px black;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+.icono{
+    width:3%;
+}
+
+
+.icono {
+    width: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000f08;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#proxima-charla{
+    background-color:#a4452c;
+    padding: 100px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+    
+}
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+.wrapper img {
+    width: 25%;
+}
+.wrapper img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contenedor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+ display: flex;
+ justify-content: space-between;
+}
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px
+    }
+    i {
+    font-size: 30px
+    }
+    footer a{
+        color:#fff;
+    }
+    
+
